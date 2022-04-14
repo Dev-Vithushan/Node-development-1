@@ -12,5 +12,5 @@ const server = http.createServer((req,res)=>{
 
 
 server.listen(PORT,HOSTNAME,()=>{
-    console.log(`Server is running from the ${HOSTNAME}:${PORT}`)
+    console.log(`Server is running from the server here is ${HOSTNAME}:${PORT}`)
 })
